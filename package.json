@@ -1,5 +1,5 @@
 {
-  "name": "nodejs",
+  "name": "rest-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,8 @@
     "url": "git+https://github.com/anggardagasta/NodeJS.git"
   },
   "keywords": [
-    "nodejs"
+    "nodejs",
+    "rest"
   ],
   "author": "Anggarda Gasta",
   "license": "ISC",

@@ -1,2 +1,2 @@
-- Type "node index.js" on your terminal
+- Type "npm start" on your terminal
 - Open your favorite browser and then access localhost:3001

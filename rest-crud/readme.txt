@@ -1,0 +1,2 @@
+- Run "npm start" on your terminal
+- Then open Postman and access localhost:3000

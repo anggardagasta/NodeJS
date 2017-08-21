@@ -1,0 +1,21 @@
+{
+  "name": "csv-email",
+  "version": "1.0.0",
+  "description": "Save data from database into CSV then send the CSV via Email",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "csv",
+    "email"
+  ],
+  "author": "Anggarda Gasta",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "json2csv": "^3.11.1",
+    "mysql": "^2.14.1"
+  }
+}

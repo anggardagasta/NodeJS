@@ -1,4 +1,5 @@
 const mysql = require('mysql');
+
 let connection = mysql.createConnection({
 	host: 'localhost',
 	user: 'root',
@@ -9,10 +10,11 @@ let connection = mysql.createConnection({
 connection.connect(function(err)
 	{
 	    if (err) {
-	      console.log("Database connection is failed")
-	      // throw err
+	      console.log("Database connection is failed");
+	      process.exit();
+	      // throw err;
 	    } else {
-	      console.log("Database connection is success")
+	      console.log("Database connection is success");
 	    }
 	}
 );

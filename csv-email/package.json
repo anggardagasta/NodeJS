@@ -16,6 +16,7 @@
   "dependencies": {
     "fs": "0.0.1-security",
     "json2csv": "^3.11.1",
-    "mysql": "^2.14.1"
+    "mysql": "^2.14.1",
+    "nodemailer": "^4.0.1"
   }
 }

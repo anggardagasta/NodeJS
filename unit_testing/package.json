@@ -1,0 +1,22 @@
+{
+  "name": "unit_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests --recursive --watch"
+  },
+  "keywords": [
+    "unit",
+    "test"
+  ],
+  "author": "Anggarda Gasta",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "nock": "^9.0.14"
+  },
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
